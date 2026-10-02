@@ -56,6 +56,3 @@ One city, 2–3 organisations, 300–500 donors, 60 days. Weeks 1–2 onboarding
 
 ## Limitations
 Everything in the demos is simulated in the browser with fictional donors. No real data, auth, database or messaging. See `docs/ARCHITECTURE.md` for the production path.
-
-## License
-MIT
