@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RaktSetu – WhatsApp Bot</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="wrap">
+<section class="phone">
+ <div class="hd"><div class="av"><svg width="22" height="22" viewBox="0 0 64 64"><path d="M32 4C32 4 10 28 10 42a22 22 0 0 0 44 0C54 28 32 4 32 4z" fill="#e6194b"/></svg></div><div><b>RaktSetu ✔</b><small>Business account · online</small></div><button id="cb">⚙ Under the hood</button></div>
+ <div class="chat" id="chat" aria-live="polite"></div>
+ <div class="bar"><input id="inp" aria-label="Type a message" placeholder="Type a message…" autocomplete="off"><button id="snd" aria-label="Send">➤</button></div>
+</section>
+<aside class="con" id="con"><h3>Under the hood · live engine</h3>
+ <label><input type="checkbox" id="force" checked> Simulate no response in Wave 1 (shows escalation)</label>
+ <div class="t">NLU parse of last message</div><pre id="nlu">{ }</pre>
+ <div class="t">Engine log</div><div id="log"></div></aside>
+</div>
+<script src="app.js"></script></body></html>
